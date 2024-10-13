@@ -87,7 +87,8 @@ WHERE release_year = 2020
 
 ### 4. Find the top 5 countries with the most content on Netflix
 
-sql```
+```sql
+
 SELECT *
 FROM
 (
@@ -105,7 +106,7 @@ ORDER BY total_content DESC;
 
 ### 5. Identify the longest movie
 
-sql```
+```sql
 SELECT TOP 1 *
 FROM netflix
 WHERE type = 'Movie'
