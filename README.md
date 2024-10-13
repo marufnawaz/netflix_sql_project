@@ -20,7 +20,7 @@ The data for this particular project is downloaded from kaggle
 
 - ## Schema
 
-'''sql
+```sql
 CREATE TABLE netflix (
 show_id	VARCHAR(6),
 type VARCHAR(10),
@@ -34,5 +34,5 @@ rating VARCHAR(10),
 duration VARCHAR(15),
 listed_in	VARCHAR(250),
 description VARCHAR(250)
-)
-'''
+);
+```
