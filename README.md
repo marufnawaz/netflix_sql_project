@@ -103,15 +103,16 @@ ORDER BY total_content DESC;
 ```
 **Objective:** Identify the top 5 countries with the highest number of content items.
 
--- 5. Identify the longest movie
+### 5. Identify the longest movie
 
+sql```
 SELECT TOP 1 *
 FROM netflix
 WHERE type = 'Movie'
 ORDER BY 
     CAST(SUBSTRING(duration, 1, CHARINDEX(' ', duration) - 1) AS INT) DESC;
-
-
+```
+**Objective:** Find the movie with the longest duration.
 
 -- 6. Find content added in the last 5 years
 
