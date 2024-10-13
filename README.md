@@ -18,7 +18,7 @@ The data for this particular project is downloaded from kaggle
 
 - **Dataset Link:** [Movies Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
 
-- ## Schema
+## Schema
 
 ```sql
 CREATE TABLE netflix (
