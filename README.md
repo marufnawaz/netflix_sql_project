@@ -36,3 +36,15 @@ listed_in	VARCHAR(250),
 description VARCHAR(250)
 );
 ```
+## Business Problems and Solutions
+
+### 1. Count the Number of Movies vs TV Shows
+
+```sql
+SELECT 
+	type,
+	COUNT(*)
+FROM netflix
+GROUP BY type
+```
+**Objecctive:** Determine the distribution of content types on Netflix
