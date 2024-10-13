@@ -7,4 +7,4 @@ This project entails a thorough analysis of Netflix's movies and TV shows data u
 
 ## Objectives
 
-** Analyze the distribution of content types (movies vs TV shows).
+- ** Analyze the distribution of content types (movies vs TV shows).
