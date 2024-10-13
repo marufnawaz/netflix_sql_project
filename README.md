@@ -11,3 +11,9 @@ This project entails a thorough analysis of Netflix's movies and TV shows data u
 - Determine the most prevalent ratings for both movies and TV shows.
 - Compile and analyze content according to release years, countries, and durations.
 - Investigate and classify content based on specific criteria and keywords.
+
+## Dataset
+
+The data for this particular project is downloaded from kaggle
+
+-**Dataset Link:** [Movies Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
